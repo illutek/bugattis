@@ -1,0 +1,19 @@
+name = Bugattis
+description = Voor de lingerie winkels Bugattis in Balen en Hofstade met het bootstrap framework
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/slick.css
+stylesheets[all][] = css/slick-theme.css
+stylesheets[all][] = css/style.css
+
+regions[banner]         = Banner
+regions[news]           = Nieuws
+regions[content]        = Content
+regions[help]           = Help
+regions[footer]         = Footer
+
+; Information added by drupal.org packaging script on 2013-02-04
+version = "7.x-1.5"
+core = "7.x"
+project = "Bugattis"
