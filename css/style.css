@@ -29,9 +29,15 @@ img {
 header .quotes {
   margin: 60px 0 10px;
   font-size: 18px;
-  padding: 5px;
+  padding: 8px;
   background: url("../images/content_transp_background-min.png") repeat;
-  text-align: center; }
+  text-align: center;
+  border: solid 1px #e92d8b; }
+  header .quotes p::before {
+    font-size: 40px;
+    content: '" ';
+    line-height: 30px;
+    color: #e92d8b; }
 
 #content_wrap {
   background: url("../images/content_transp_background-min.png") repeat;
