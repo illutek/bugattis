@@ -8,5 +8,5 @@ met dezelfde instellingen, war eigenlijk met 1 classe zou moeten lukken maar om 
 gaf een verschillende resultaat bij de laatste komt er een extra marge boven de button
 
 ##Background images
-De background images van de site zijn opgeslagen in sites/default/files/background_images de linken daarnaar toe in custom.js
+De background images van de site zijn opgeslagen in sites/default/files/background_images de linken daar naar toe in custom.js
 in de file js

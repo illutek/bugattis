@@ -185,6 +185,14 @@ input[type="checkbox"], input[type="radio"] {
 .node-webform #webform-component-bericht {
   padding: 2em 0; }
 
+.webshop-url {
+  margin: 35px 0 15px 0;
+  text-align: center; }
+  .webshop-url a {
+    font-size: 24px; }
+    .webshop-url a:hover {
+      color: white; }
+
 @media only screen and (max-width: 1200px) {
   .banner_img_8, .banner_img_9 {
     display: none; }
