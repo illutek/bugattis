@@ -9,4 +9,6 @@ bower_components
 *.css.map
 build/
 dist/
+css/style.css
+css/style.min.css
 npm-debug.log

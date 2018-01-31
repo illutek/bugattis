@@ -133,6 +133,7 @@
                                     </a>
                                 </div>
                                 <!-- end tel -->
+                                <a href="https://www.bugattis-shop.be/">Onze webshop</a>
                             </div>
                             <!-- end footer title -->
                             <div class="col-md-1 col-md-offset-1 icons">
@@ -167,6 +168,8 @@
                                     </a>
                                 </div>
                                 <!-- end tel -->
+                                <a href="https://www.google.com/maps/place/Bugattis/@50.988419,4.495708,2a,90y,90t/data=!3m5!1e2!3m3!1shttps:%2F%2Flh4.googleusercontent.com%2F-BpEaOLGCKZM%2FUw-lbQQ_iGI%2FAAAAAAAJr8Y%2FxUDftjYbq0E%2Fs203%2Fphoto.jpg!2e4!3e12!4m2!3m1!1s0x0:0xac76d6f458119e5f!6m1!1e1?hl=nl" target="_blank">Klik hier om de winkel te verkennen</a>
+                                
                             </div>
                             <!-- end footer_title -->
                             <div class="col-md-1 col-md-offset-1 icons">
