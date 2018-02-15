@@ -25,7 +25,7 @@
                        class="<?php echo strpos($_SERVER['REQUEST_URI'], (base_path() . 'nachtmode')) !== false ? 'active' : '' ?>">Nachtmode</a>
                 </li>
                 <li><a href="<?php print base_path() ?>winkels"
-                       class="<?php echo strpos($_SERVER['REQUEST_URI'], (base_path() . 'winkels')) !== false ? 'active' : '' ?>">Winkels</a>
+                       class="<?php echo strpos($_SERVER['REQUEST_URI'], (base_path() . 'winkels')) !== false ? 'active' : '' ?>">Openingsuren</a>
                 </li>
                 <li><a href="<?php print base_path() ?>merken"
                        class="<?php echo strpos($_SERVER['REQUEST_URI'], (base_path() . 'merken')) !== false ? 'active' : '' ?>">Merken</a>
@@ -79,11 +79,15 @@
       <?php endif; ?>
     </header>
     <div class="col-md-10" id="content_wrap">
+
+      
       <?php if ($page['banner']): ?> <!-- zou nog de img-responsive class moeten meekrijgen -->
           <div class="col-md-12 clearfix" id="banner">
             <?php print render($page['banner']); ?>
           </div>
       <?php endif; ?>
+
+
         <div class="col-md-12">
           <?php if ($page['news']): ?>
               <div id="news"><!-- de image hier zou nog de img-responsive class moeten meekrijgen -->
@@ -91,6 +95,8 @@
               </div><!-- end news -->
           <?php endif; ?>
         </div>
+
+        
         <div class="col-md-12">
             <div class="content">
               <?php // print $breadcrumb; ?>
