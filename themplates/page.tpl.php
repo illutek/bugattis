@@ -203,7 +203,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-8 copyright">
-                    &copy; 2015 - <a href="<?php print base_path() ?>user">Bugattis</a> -
+                    &copy; <?php echo date("Y"); ?> - <a href="<?php print base_path() ?>user">Bugattis</a> -
                     <a href="<?php print base_path() ?>cookies">Gebruik van cookies</a>
                 </div>
                 <!-- copyright -->
