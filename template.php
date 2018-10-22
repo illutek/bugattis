@@ -4,7 +4,7 @@
  * include external css files
  */
 
-drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans' , array('group' => CSS_THEME, 'type' => 'external'));
+drupal_add_css('https://fonts.googleapis.com/css?family=Open+Sans' , array('group' => CSS_THEME, 'type' => 'external'));
 
 
 /**
