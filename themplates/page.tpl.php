@@ -78,6 +78,7 @@
           </div>
       <?php endif; ?>
     </header>
+    
     <div class="col-md-10" id="content_wrap">
 
       
@@ -125,7 +126,7 @@
         </div>
         <div class="col-md-12" id="footer_wrap">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div id="footer_left">
                         <div class="row">
                             <div class="col-md-10 footer_title">
@@ -159,42 +160,6 @@
                         <!-- end row -->
                     </div>
                     <!-- end footer_left -->
-                </div>
-                <div class="col-md-6">
-                    <div id="footer_right">
-                        <div class="row">
-                            <div class="col-md-10 footer_title">
-                                <h3>Winkel Hofstade</h3>
-                                Tervuursesteenweg 358 - 1981 Hofstade-Zemst
-                                <div class="tel">
-                                    <label>Telefoon:</label>
-                                    <a href="tel:+3215620896">
-                                        <span class="lg-tel">015/620896</span>
-                                        <span class="mobile-telH">Bel ons</span>
-                                    </a>
-                                </div>
-                                <!-- end tel -->
-                                <a href="https://www.google.com/maps/place/Bugattis/@50.988419,4.495708,2a,90y,90t/data=!3m5!1e2!3m3!1shttps:%2F%2Flh4.googleusercontent.com%2F-BpEaOLGCKZM%2FUw-lbQQ_iGI%2FAAAAAAAJr8Y%2FxUDftjYbq0E%2Fs203%2Fphoto.jpg!2e4!3e12!4m2!3m1!1s0x0:0xac76d6f458119e5f!6m1!1e1?hl=nl" target="_blank">Klik hier om de winkel te verkennen</a>
-                                
-                            </div>
-                            <!-- end footer_title -->
-                            <div class="col-md-1 col-md-offset-1 icons">
-                                <a href="https://www.facebook.com/BugattisBodyBeachHofstade" target="_blank">
-                                    <img
-                                            src="<?php print base_path() . path_to_theme(); ?>/images/facebook_icon-min.jpg"
-                                            title="Facebook Hofstade">
-                                </a>
-                                <a href="https://maps.google.be/maps?q=Tervuursesteenweg+358+-+1981+Hofstade-Zemst+&hl=nl&sll=51.174432,5.171127&sspn=0.009969,0.026157&hnear=Tervuursesteenweg+358,+Hofstade+1981+Zemst&t=m&z=16"
-                                   target="_blank">
-                                    <img
-                                            src="<?php print base_path() . path_to_theme(); ?>/images/google_maps_icon.jpg">
-                                </a>
-                            </div>
-                            <!-- end icons -->
-                        </div>
-                        <!-- row row -->
-                    </div>
-                    <!-- end footer_right -->
                 </div>
             </div>
             <!-- end row -->
