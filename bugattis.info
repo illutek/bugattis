@@ -5,7 +5,7 @@ engine = phptemplate
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/slick.css
 stylesheets[all][] = css/slick-theme.css
-stylesheets[all][] = css/style.css
+stylesheets[all][] = css/style.min.css
 
 regions[quotes]         = Quotes
 regions[banner]         = Banner
