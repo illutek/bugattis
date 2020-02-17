@@ -84,7 +84,7 @@ gulp.task('img', function() {
 
 gulp.task('watch', function() {
     gulp.watch(src_sass, ['sass']);
-    //gulp.watch(src_css, ['minify_css']);
+    gulp.watch(src_css, ['minify_css']);
 });
 
 
